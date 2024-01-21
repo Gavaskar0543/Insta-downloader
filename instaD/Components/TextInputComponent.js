@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, TextInput, YellowBox} from 'react-native';
+import {SafeAreaView, StyleSheet, TextInput} from 'react-native';
 
 const TextInputComponent = () => {
   const [text, onChangeText] = React.useState('Enter URL');
